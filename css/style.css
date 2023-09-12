@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+/* FONT SIZES */
+
+h1{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+h2{
+    font-size: 1.5rem;
+    line-height: 60px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.75rem;
+}
+
+
+/*** LOGO ***/
+.logo{
+    width: 100px;
+    border-radius: 10%;
+}
+
+/*** NAVBAR ***/
+header{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: burlywood;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    color: #000;
+}
+
+
+.parallax {
+	/* Imagen elegida */
+	background-image: url("../assets/images/class.jpg");
+
+	/* Definir un alto específico */
+	height: 700px;
+
+	/* Crear el efecto parallax al scrollear */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* box modeling */
+	padding: 50px 30px;
+	margin-bottom: 50px;
+}
+
+.parallax h2, .parallax p {
+	font-size: larger;
+	padding: 10px 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+}
+
+.parallax h4 {
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+
+.parallax p {
+	text-align: justify;
+}
+
+.main{
+    background-color: blanchedalmond;
+}
+
+main, footer{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+article{
+    padding: 50px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: burlywood;
+}
