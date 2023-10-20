@@ -1,104 +1,163 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <!-- SITE TITLE -->
-   <title>Instituto Onnara</title>
+    <!-- SITE TITLE -->
+    <title>Instituto Onnara</title>
 
-   <meta
-   name="keywords"
-   content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product"
-   />
+    <meta
+      name="keywords"
+      content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product"
+    />
 
-   <!-- FONTS  -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-   
-   <!-- CSS LINKS -->
-   <link rel="stylesheet" href="../css/style.css">
-   
-   
-   <!-- MORE ICONS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-   <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="../css/style.css" />
 
-</head>
+    <!-- MORE ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<body>
-	<!-- SUB HEADER -->
-	<header class="sub-header">
-        
-        <!-- NAVBAR -->
-        <div class="navbar">
-            <a href="../index.html">
-                <img class="logo" src="../assets/images/logo.png" alt="LOGO">
-            </a>
-            <h3>INSTITUTO <br>COREANO ONNARA</h3>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="./courses.html">CURSOS</a></li>
-                    <li><a href="./teachers.html">QUIENES SOMOS</a></li>
-                    <li><a href="./contact.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <section class="container">
-            <h1>Nuestros Cursos</h1>
-        </section>
-	</header>
-	<!-- HEADER FINISH -->    
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  </head>
+
+  <body>
+    <!-- SUB HEADER -->
+    <header class="sub-header">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a href="../index.html">
+          <img class="logo" src="../assets/images/logo.png" alt="LOGO" />
+        </a>
+        <h3>INSTITUTO <br />COREANO ONNARA</h3>
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="/index.html">INICIO</a></li>
+              <li><a href="/views/courses.html">CURSOS</a></li>
+              <li><a href="/views/teachers.html">QUIENES SOMOS</a></li>
+              <li><a href="/views/contact.html">CONTACTO</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+
+      <section class="container">
+        <h1>Nuestros Cursos</h1>
+      </section>
+    </header>
+    <!-- HEADER FINISH -->
 
     <main>
-        
-        <section class="course">
-            <h1>Cursos Online 2023</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <section class="course">
+        <h1>Cursos Online 2023</h1>
+        <p>FORMULARIO DE INSCRIPCIÓN: ...</p>
+      </section>
 
-            <div class="row">
-                <div class="course-col">
-                    <h3>Básico</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Culpa, quos molestiae odio, ad perspiciatis, error labore voluptate tempore saepe  est tenetur! 
-                        Ex inventore illum officiis ad, quae qui optio atque.</p>
-                </div>
-                <div class="course-col">
-                    <h3>Intermedio</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Culpa, quos molestiae odio, ad perspiciatis, error labore voluptate tempore saepe  est tenetur! 
-                        Ex inventore illum officiis ad, quae qui optio atque.</p>
-                </div>
-                <div class="course-col">
-                    <h3>Avanzado</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Culpa, quos molestiae odio, ad perspiciatis, error labore voluptate tempore saepe  est tenetur! 
-                        Ex inventore illum officiis ad, quae qui optio atque.</p>
-                </div>
-            </div>
-
-        </section>
+      <div class="wrapper">
+        <div class="course-col a">
+          <h3>Nivel 1: Basico I</h3>
+          <p>
+            El primer nivel enseña el alfabeto coreano, saludos, números
+            coreanos, la presentación personal, nombrar objetos y ubicaciones, y
+            el uso de verbos básicos para describir actividades diarias.
+          </p>
+        </div>
+        <div class="course-col b">
+          <h3>Nivel 2: Basico II</h3>
+          <p>
+            En el segundo nivel, se aprenden nombres de lugares y objetos,
+            números nativos coreanos, fechas, hora, días de la semana, clima y
+            estaciones del año. Se enfoca en habilidades expresivas y
+            sintácticas para diálogos cotidianos, con énfasis en lectura y
+            escritura.
+          </p>
+        </div>
+        <div class="course-col c">
+          <h3>Nivel 3: Intermedio I</h3>
+          <p>
+            En el tercer nivel, se practican narrativas y diálogos para
+            describir gustos, pasatiempos, comida preferida, planes de compra,
+            transporte y cultura coreana, todo a través de lectura para práctica
+            y comprensión. Además, se introduce la cultura y eventos históricos
+            de Corea.
+          </p>
+        </div>
+        <div class="course-col d">
+          <h3>Nivel 4: Intermedio II</h3>
+          <p>
+            En el cuarto nivel, se desarrollan habilidades narrativas para
+            describir planes de viaje, experiencias, síntomas, y se aprende a
+            redactar invitaciones y cartas de felicitaciones. La
+            lectocomprensión se enfatiza debido a temas más profundos, y se
+            continúa explorando la cultura e historia coreana.
+          </p>
+        </div>
+        <div class="course-col e">
+          <h3>Nivel 5: Avanzado I</h3>
+          <p>
+            En el quinto nivel, se practica la descripción de tipos de trabajos,
+            tiempo libre, compromisos, vestimenta, vivienda, lugares favoritos y
+            más. Los estudiantes aplican expresiones lingüísticas previas,
+            centrándose en la fluidez oral. Además, se integra la cultura
+            coreana en las lecciones según la temática.
+          </p>
+        </div>
+        <div class="course-col f">
+          <h3>Nivel 6: Avanzado II</h3>
+          <p>
+            En el sexto nivel, se enfoca en describir síntomas del estrés,
+            costumbres de salud, preferencias de comida, compras, planes de
+            viaje y expresiones idiomáticas. Los estudiantes ganan fluidez y
+            confianza en el idioma, y aprenden expresiones contemporáneas.
+          </p>
+        </div>
+      </div>
     </main>
 
     <!-- inicio footer -->
-	<footer class="footer">
-		<h3>Contactos</h3>
-        <p>온나라 한글학교 | Tel. + 54 (011) 3212-8786 | Mail: onnara@gmail.com <br> Directora: ... | Administradora: ...</p>
-        <div class="icons">
-            <a href="">
-                <i class="fa fa-facebook"></i> 
-            </a>
-            <a href="">
-                <i class="fa fa-instagram"></i> 
-            </a>
-            <a href="">
-                <i class="fa fa-whatsapp"></i> 
-            </a>
-        </div>
-	</footer>
-	<!-- fin footer -->
-</body>
+    <footer class="footer">
+      <h3>Contactos</h3>
+      <p>
+        온나라 한글학교 | Tel. + 54 (011) 3212-8786 | Mail: onnara@gmail.com
+        <br />
+        Directora: ... | Administradora: ...
+      </p>
+      <div class="icons">
+        <a href="">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- fin footer -->
+
+    <!----- Javascript for Toggle Menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>

@@ -1,61 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SITE TITLE -->
     <title>Instituto Onnara</title>
 
     <meta
-    name="keywords"
-    content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product"
+      name="keywords"
+      content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product"
     />
 
     <!-- FONTS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS LINKS -->
-    <link rel="stylesheet" href="./css/style.css">
-    
-    
+    <link rel="stylesheet" href="./css/style.css" />
+
     <!-- MORE ICONS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-
-</head>
-
-<body>
-	<!-- HEADER -->
-	<header class="header">
-        
-        <!-- NAVBAR -->
-        <div class="navbar">
-            <a href="index.html">
-                <img class="logo" src="assets/images/logo.png" alt="LOGO">
-            </a>
-            <h3>INSTITUTO <br>COREANO ONNARA</h3>
-            <nav>
-                <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="./views/courses.html">CURSOS</a></li>
-                    <li><a href="./views/teachers.html">QUIENES SOMOS</a></li>
-                    <li><a href="./views/contact.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <section class="container">
-            <div class="text-box">
-                <h1><span class="auto-input">¡Bienvenidos a Onnara!</span></h1>
-                <p>Aprende coreano con profesores nativos<br>
-                #IdiomaCoreano #VoluntadFirme #PracticaHonesta</p>
-                <a href="./views/courses.html" class="hero-btn">Ver cursos</a>
-            </div>
-        </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- <script>
@@ -66,25 +39,71 @@
             loop: true
         })
     </script> -->
+  </head>
 
-	</header>
-	<!-- HEADER FINISH -->
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a href="index.html">
+          <img class="logo" src="assets/images/logo.png" alt="LOGO" />
+        </a>
+        <h3>INSTITUTO <br />COREANO ONNARA</h3>
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="/index.html">INICIO</a></li>
+              <li><a href="/views/courses.html">CURSOS</a></li>
+              <li><a href="/views/teachers.html">QUIENES SOMOS</a></li>
+              <li><a href="/views/contact.html">CONTACTO</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
 
-    <main class="main">
-
-
-    </main>
-
-	<!-- inicio footer -->
-	<footer class="footer">
-		<h3>Contactos</h3>
-        <p>온나라 한글학교 | Tel. + 54 (011) 3212-8786 | Mail: onnara@gmail.com <br> Directora: ... | Administradora: ...</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i> 
-            <i class="fa fa-instagram"></i> 
-            <i class="fa fa-whatsapp"></i> 
+      <section class="container">
+        <div class="text-box">
+          <h1><span class="auto-input">¡Bienvenidos a Onnara!</span></h1>
+          <p>
+            Aprende coreano con profesores nativos<br />
+            #IdiomaCoreano #VoluntadFirme #PracticaHonesta
+          </p>
+          <a href="./views/courses.html" class="hero-btn">Ver cursos</a>
         </div>
-	</footer>
-	<!-- fin footer -->
-</body>
+      </section>
+    </header>
+    <!-- HEADER FINISH -->
+
+    <main class="main"></main>
+
+    <!-- inicio footer -->
+    <footer class="footer">
+      <h3>Contactos</h3>
+      <p>
+        온나라 한글학교 | Tel. + 54 (011) 3212-8786 | Mail: onnara@gmail.com
+        <br />
+        Directora: ... | Administradora: ...
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+      </div>
+    </footer>
+    <!-- fin footer -->
+
+    <!----- Javascript for Toggle Menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>
