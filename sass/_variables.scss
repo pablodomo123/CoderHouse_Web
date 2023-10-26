@@ -1,0 +1,17 @@
+//tipografía
+$font-title:'Montserrat Alternates', sans-serif;
+$font: 'Montserrat';
+
+//mapa de colores
+$colors:(primary:#4a4e69,primary-light:lighten(#4a4e69,40%),primary-dark:darken(#4a4e69,10%),text-dark:darken(#4a4e69,40%),text-light:lighten(#4a4e69,60%));
+
+//breakpoints
+$desktop:992px;
+
+//medidas varias
+$padding: 15px;
+$radius: 15px;
+
+//sombreado
+$shadow:0 10px 30px rgba(0, 0, 0, .4);
+
