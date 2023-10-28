@@ -284,13 +284,13 @@ p {
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
     margin-top: 15%;
     margin-bottom: 20%;
   }
-}
+} */
 
 /*Mentors*/
 
